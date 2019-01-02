@@ -1,0 +1,93 @@
+Class 1
+
+//Birthday Paradox
+//Merge 2 sorted arrays
+//Bike problem
+//Binary search rule
+//Generate Paranthesis
+//Brick wall 4*n
+
+Class 2
+
+//study mergesort
+//counting inversions 
+	a[i]>a[j] given i<j is an inversion  count this in array 
+//n queens
+//bitmasking unique1,unique2,unique3
+
+Class 3
+
+//vector, operator overloading and stuff 
+//vector complete stl
+//deep copy and shallow copy
+//linked list all types all variations
+// recursive reverse linked list
+//function overloading cin cout ostream stream
+//kth element from the last can be found out using fast and slow pointer, put fast k steps ahead of small
+//alternative merge a1-a2-a3-a4-a5 should become a1-a5-a2-a4-a3
+//reversing in triplets
+//common loop.  1-2-3-4-5 6-7-3-4-5 detect
+//cycle in linked list Floyd cycle also and where is cycle node found, find that also
+//stanford linked list
+//xor list can only transverse end to end 
+
+
+Class 4
+//substr function
+//ascii subsequence
+//phone keypad finalise 
+//binary trees bfs etc queues etc
+//study stacks and queues. 
+//Given a tree create a mirror image of it
+//given a binary tree, write code to replace every node to represent it as a sum of all descendants of it including itself
+//given a bt, write a function to replace every node with the sum of descendants only, and leaf nodes should remain as it is
+//diameter of tree using pairs and normal method
+
+
+//check whether a tree is height balanced or not
+//array given, generate height balanced tree from it
+//zigszag traversal binary tree
+//print all paths from roots to leaves
+//given two nodes, find out least common ancestor
+//print tree in a pretty way
+
+//find the number of trees possible with n nodes, where trees are numbered till n
+//convert a sorted array to bst
+//convert a bst to singly linked list
+//convert a linked list to a bst
+//convert a bst to doubly linked list
+//catalan numbers wiki
+
+//number of steps required to go from one end of a grid to another grid where grid is m*n is
+
+	(m-1+n-1)!/(m-1)!((n-1)!   By p and c
+
+Lec heap
+
+//heap can be made O(n) by using heapify build amortized analysis 
+//heap sort using pop function 
+//functor
+//RMID
+//Merge K sorted arrays
+//Stream of numbers incoming s
+
+Let graph and trie
+
+//rubin amp something for pattern finding
+//tries phonebook 
+//kmp
+
+Dynamic Programming
+
+//Overlapping subproblems
+//Optimal substructure
+//recursion memoization is called as top down approach 95% done by topdown for complex problems
+//second method is bottom up approach for simpler problems
+//wine, n coins make, reduce to 1
+//knapsack
+//game of picking up coinss
+
+Second last class
+//longest common subsequence
+//maximize fruit share by cuts
+
