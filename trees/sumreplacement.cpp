@@ -23,7 +23,6 @@ node*buildtree(){
 	 root->right=buildtree();
 	 return root;
 }
- 
 void printpreorder(node*root){
 	if(root==NULL)
 		return;
@@ -31,37 +30,20 @@ void printpreorder(node*root){
 	printpreorder(root->left);
 	printpreorder(root->right);
 }
-
-void printinorder(node*root){
-	if(root==NULL)
-		return;
-	printinorder(root->left);
-	cout<<root->data<<" ";
-	printinorder(root->right);
-}
-void printpostorder(node*root){
-	if(root==NULL)
-		return;
-	printpostorder(root->left);
-	printpostorder(root->right);
-	cout<<root->data<<" ";
-}
-int height(node*root){
+int replacesum(node*root){
 	if(root==NULL)
 		return 0;
-	int ls=height(root->left);
-	int rs=height(root->right);
-	return max(ls,rs)+1;
+	if(root->left==NULL && root->right==NULL)
+		return root->data;
+
+	int ls=replacesum(root->left);
+	int rs=replacesum(root->right);
+	int temp=root->data;
+	root->data=ls+rs;
+	return root->data+temp;
 }
 int main(){
 	node*root=buildtree();
+	replacesum(root)
 	printpreorder(root);
-	cout<<endl;
-	printinorder(root);
-	cout<<endl;
-	printpostorder(root);
-	cout<<endl;
-	cout<<height(root);
-
-	return 0;
 }
